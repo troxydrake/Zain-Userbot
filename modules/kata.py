@@ -83,9 +83,9 @@ async def _(event):
     sleep(3)
     await xx.edit("Cuma Mau Bilang")
     sleep(2)
-    await xx.edit("Kalo Bang Riz ...")
+    await xx.edit("Kalo pak dokter ituuuuuuu ...")
     sleep(1)
-    await xx.edit("Ganteng Banget")
+    await xx.edit("baikkkkk Banget")
 
 
 # Create by myself @localheart
@@ -187,7 +187,7 @@ async def _(event):
 async def _(event):
     await event.client.send_message(
         event.chat_id,
-        "NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA",
+        "NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA SEPELEEEEEEEE",
         reply_to=event.reply_to_msg_id,
     )
     await event.delete()
