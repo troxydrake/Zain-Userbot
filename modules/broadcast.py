@@ -41,7 +41,7 @@ async def gcast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`Sabar tuanku dokter ini lagi proses ya ...`")
     er = 0
     done = 0
     err = ""
@@ -68,7 +68,7 @@ async def gcast(event):
                     err += f"• {str(h)}" + "\n"
                     er += 1
     await kk.edit(
-        f"**Pesan Broadcast Berhasil Terkirim Ke : `{done}` Grup.\nDan Gagal Terkirim Ke : `{er}` Grup.**"
+        f"**Pesan Broadcast Berhasil Terkirim Ke : `{done}` Grup.\nDan maafkan saya Gagal Terkirim Ke : `{er}` Grup.**"
     )
 
 
@@ -82,7 +82,7 @@ async def gucast(event):
         return await eor(
             event, "`Berikan beberapa teks ke Globally Broadcast atau balas pesan..`"
         )
-    kk = await event.eor("`Sebentar Kalo Limit Jangan Salahin Kynan Ya...`")
+    kk = await event.eor("`Sabar tuanku dokter ini lagi proses ya ...`")
     er = 0
     done = 0
     chat_blacklist = udB.get_key("GBLACKLISTS") or []
@@ -103,7 +103,7 @@ async def gucast(event):
                 except BaseException:
                     er += 1
     await kk.edit(
-        f"**Pesan Broadcast Berhasil Terkirim Ke : `{done}` Pengguna.\nDan Gagal Terkirim Ke : `{er}` Pengguna.**"
+        f"**Pesan Broadcast Berhasil Terkirim Ke : `{done}` Pengguna.\nDan maafkan saya Gagal Terkirim Ke : `{er}` Pengguna.**"
     )
 
 
