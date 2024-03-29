@@ -1,13 +1,13 @@
 {
     "name": "Zain UserBot",
     "description": "Zain Userbot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
-    "logo": "https://graph.org/file/60408fea8439e6702674d.jpg",
+    "logo": "https://telegra.ph/file/dd5d0e02c0cecce66d7b7.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
     "repository": "https://github.com/naya1503/Naya-Userbot",
-    "success_url": "https://t.me/rizzvbss",
+    "success_url": "https://t.me/N0TH4VEUSN",
     "stack": "container",
     "env": {
         "API_ID": {
