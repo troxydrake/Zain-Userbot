@@ -52,15 +52,15 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ​
+◈ ᴅᴏᴋᴛ͢ᴇꝛ ꭙ ᴜꜱᴇʀʙᴏᴛ​
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ ᴅᴏᴋᴛ͢ᴇꝛ - {}
   ◈ Telethon - {}
 """
 
 in_alive = """
-<b> Naya-Userbot</b>
+<b> ᴅᴏᴋᴛ͢ᴇꝛ-Userbot</b>
 <b> status :</b> <code>{}</code>{}
 <b>   expired_on :</b> <code>{}</code>
 <b>   dc_id :</b> <code>{}</code>
@@ -71,30 +71,30 @@ in_alive = """
 
 absen = [
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kynan** 😁",
-    "**Maaf ka habis nemenin ka Kynan** 🥺",
-    "**Maaf ka habis disuruh Tuan Kynan** 🥺🙏🏻",
-    "**Hadir Kynan Sayang** 😘",
-    "**Hadir Kynan Akuuuuhhh** ☺️",
-    "**Hadir Kynan brother Aku** 🥰",
+    "**Hadir Bro** 😁",
+    "**Maaf ka habis nemenin ka ᴅᴏᴋᴛ͢ᴇꝛ** 🥺",
+    "**Maaf ka habis disuruh Tuan ᴅᴏᴋᴛ͢ᴇꝛ** 🥺🙏🏻",
+    "**Hadir ᴅᴏᴋᴛ͢ᴇꝛ Sayang** 😘",
+    "**Hadir ᴅᴏᴋᴛ͢ᴇꝛ Akuuuuhhh** ☺️",
+    "**Hadir ᴅᴏᴋᴛ͢ᴇꝛ brother Aku** 🥰",
     "**Sokap bet lu**",
     "**Apasi Bawel** 🥰",
 ]
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^Absen$")
-async def kynanabsen(ganteng):
+async def dokterabsen(ganteng):
     await ganteng.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Kynan$")
-async def naya(naya):
-    await naya.reply("**Kynan Punya Nya Naya**🤩")
+@register(incoming=True, from_users=DEVS, pattern=r"^dokabsen$")
+async def dokter(dokter):
+    await naya.reply("**Kamu Punya Nya dokter**🤩")
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Naya$")
-async def naya(naya):
-    await naya.reply("**Naya Punya Nya Kynan**🤩")
+@register(incoming=True, from_users=DEVS, pattern=r"^dok$")
+async def dok(dok):
+    await naya.reply("**dokter Punya Nya kamu**🤩")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
