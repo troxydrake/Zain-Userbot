@@ -67,7 +67,7 @@ class Player:
         try:
             await vcClient(
                 functions.phone.CreateGroupCallRequest(
-                    self._chat, title="🎧 Naya Music 🎶"
+                    self._chat, title="🎧 Zain Music 🎶"
                 )
             )
         except Exception as e:
