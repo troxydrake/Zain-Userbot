@@ -30,7 +30,7 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://graph.org/file/60408fea8439e6702674d.jpg"
+piic = "https://telegra.ph/file/dd5d0e02c0cecce66d7b7.jpg"
 
 buttons = [
     [
@@ -72,7 +72,7 @@ in_alive = """
 absen = [
     "**Hadir Sayang** 😳",
     "**Hadir Bro** 😁",
-    "**Maaf ka habis nemenin ka ᴅᴏᴋᴛ͢ᴇꝛ** 🥺",
+    "**Maaf ka habis nenenin ka ᴅᴏᴋᴛ͢ᴇꝛ** 🥺",
     "**Maaf ka habis disuruh Tuan ᴅᴏᴋᴛ͢ᴇꝛ** 🥺🙏🏻",
     "**Hadir ᴅᴏᴋᴛ͢ᴇꝛ Sayang** 😘",
     "**Hadir ᴅᴏᴋᴛ͢ᴇꝛ Akuuuuhhh** ☺️",
