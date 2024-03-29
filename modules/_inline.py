@@ -42,7 +42,7 @@ upage = 0
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/naya1503/Naya-Userbot"),
-        Button.url("• Support •", url="t.me/kynansupport"),
+        Button.url("• Support •", url="t.me/Top_Mutualan_Indonesia"),
     ],
 ]
 
@@ -138,7 +138,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @KynanSupport"
+    help_ += "\n© @N0TH4VEUSN"
     data = f"uh_{key}_"
     if index is not None:
         data += f"|{index}"
@@ -321,7 +321,7 @@ async def ibuild(e):
                             _pic,
                             title="Ayra Op",
                             text=txt,
-                            description="@Riizzvbss",
+                            description="@N0TH4VEUSN",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -337,7 +337,7 @@ async def ibuild(e):
                         title="Ayra Op",
                         type=_type,
                         text=txt,
-                        description="@Riizzvbss",
+                        description="@N0TH4VEUSN",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
